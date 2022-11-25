@@ -1,0 +1,9 @@
+pipeline{
+
+agent {
+label ansible
+label 'ansible'
+}
+
+environment {
+
